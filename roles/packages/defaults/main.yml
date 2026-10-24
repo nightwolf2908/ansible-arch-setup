@@ -1,0 +1,11 @@
+---
+essential_packages:
+  - git
+  - vim
+  - htop
+  - openssh
+  - python
+  - base-devel
+  - curl
+  - wget
+  - tmux

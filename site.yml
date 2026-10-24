@@ -1,0 +1,6 @@
+---
+- name: Configuración base de Arch Linux
+  hosts: arch
+  become: true
+  roles:
+    - packages

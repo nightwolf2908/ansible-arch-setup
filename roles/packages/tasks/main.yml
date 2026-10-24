@@ -1,0 +1,9 @@
+---
+- name: Actualizar la caché de pacman
+  community.general.pacman:
+    update_cache: yes
+
+- name: Instalar paquetes esenciales
+  community.general.pacman:
+    name: "{{ essential_packages }}"
+    state: present

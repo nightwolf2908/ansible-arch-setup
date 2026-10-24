@@ -36,17 +36,6 @@ Playbooks de Ansible para configurar máquinas Arch Linux después de una instal
    ```bash
     ansible-playbook site.yml --ask-become-pass
 
-## Estructura
-
-.
-├── ansible.cfg
-├── inventory.ini
-├── site.yml
-└── roles/
-    └── packages/
-        ├── defaults/main.yml   # Lista de paquetes
-        └── tasks/main.yml      # Tareas del rol
-
 ## Personalización
 
 Para instalar otros paquetes, edita roles/packages/defaults/main.yml y añade los que necesites a la lista essential_packages.
